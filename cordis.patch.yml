@@ -1,0 +1,6 @@
+# dsh-aris-glass bundle patch: one host row over the web profile.
+# The row mounts both halves; `dsh.client` in package.json makes the browser
+# face (exports "./client") inject the assistant-message glass stylesheet.
+- insert:
+    - id: aris-assistant-glass
+      name: dsh-aris-glass
